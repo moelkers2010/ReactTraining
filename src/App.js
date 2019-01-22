@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Person from './Person/Person';
 
 class App extends Component {
   render() {
@@ -7,6 +8,7 @@ class App extends Component {
       <div className="App">
         <h1>Hi, I'm a react app, now on git.</h1>
         <p>Just a little paragraph here, minding my own business.</p>
+        <Person></Person>
       </div>
       
     );
