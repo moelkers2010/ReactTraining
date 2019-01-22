@@ -12,7 +12,8 @@ class App extends Component {
   }
 
   switchNameHandler = () =>{
-    console.log('Hey, clicks work.')
+    //console.log('Hey, clicks work.')
+    // This is a NO NO this.state.persons[0].name = 'Dr. Evil'
   }
 
   render() {
